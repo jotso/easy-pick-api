@@ -1,0 +1,10 @@
+<phpunit bootstrap="vendor/autoload.php">
+    <php>
+        <env name="APP_ENV" value="phpunit" force="true"/>
+    </php>
+    <testsuites>
+        <testsuite name="easypick">
+            <directory>src/test</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

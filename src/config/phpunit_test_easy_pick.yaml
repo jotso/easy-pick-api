@@ -1,0 +1,38 @@
+projects:
+  0:
+    domain: phpunit.easypick.nl
+    mail_from: noreply@phpunit.easypick.nl
+    mail_name: Red Bird
+    mail_subject: Welcome at Easy Pick!
+    db_base_table_name: 00_phpunit_easy_pick
+    # optional parameters, and there respective default values
+    play_by_email: false
+    play_by_email_max_tries: 1
+    required_fields:
+      code: code
+      naam: naam
+      email: email
+      avw: avw
+
+  1:
+    domain:
+
+  2:
+    domain: phpunit.easypick.nl
+    db_base_table_name: 00_phpunit_easy_pick
+    play_by_email: true
+    play_by_email_max_tries: 2
+    required_fields:
+      code: code
+      naam: naam
+      email: email
+      avw: avw
+
+  3:
+    domain: phpunit.easypick.nl
+    db_base_table_name: 00_phpunit_easy_pick
+    play_by_email: true
+    required_fields:
+      naam: naam
+      email: email
+      avw: avw

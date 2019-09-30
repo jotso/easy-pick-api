@@ -1,0 +1,17 @@
+projects:
+  0:
+    # minimal required configuration used
+    title: Easy Pick Template
+    domain: easy-pick-template-2.activatiemarketing.nl
+    mail_from: noreply@easy-pick-template.easypick.nl
+    mail_name: Red Bird
+    mail_subject: Welcome at Easy Pick!
+    db_base_table_name: 00_easy_pick
+    # optional parameters, and there respective default values
+    play_by_email: false
+    play_by_email_max_tries: 1
+    required_fields:
+      code: code
+      naam: naam
+      email: email
+      avw: avw
